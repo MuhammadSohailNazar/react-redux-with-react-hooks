@@ -5,6 +5,7 @@ const initialState = {
 };
 
 const Reducer2 = (state = initialState, action) => {
+console.log("🚀 ~ action", action)
   switch (action.type) {
     case ACTION_TYPES.REDUX_INC:
       return {
